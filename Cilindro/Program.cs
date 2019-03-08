@@ -35,8 +35,9 @@ namespace Cilindro
 
             //calcular área superficial//
             area = 2 * pi * radiusValues * (radiusValues + heigthValues);
-            Console.WriteLine("your superficial area equals to\t {0:f3}", area);
+            Console.WriteLine("\nyour superficial area equals to\t {0:f3}", area);
 
+            float.
         }
     }
 }
