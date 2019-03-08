@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 namespace VariasString
 {
@@ -6,7 +7,13 @@ namespace VariasString
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string s = "ola \u058D";
+            Console.WriteLine(s);
+
+            string t = "C:\\Users\\Vitor\\Documents\\OneDrive";
+            Console.WriteLine(t);
+
+            Console.ReadKey();
         }
     }
 }
