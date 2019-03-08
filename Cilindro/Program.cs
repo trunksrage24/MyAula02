@@ -8,11 +8,11 @@ namespace Cilindro
         {
             string heigthValue;
             string radiusValue;
-            float heigthValues;
-            float radiusValues;
-            float pi = 3.1415926F;
-            float volume;
-            float area;
+            double heigthValues;
+            double radiusValues;
+            double volume;
+            double area;
+            double pi = Math.PI;
 
             //introduçao ao programa do cilindro//
             Console.WriteLine("welcome to GeoBuild!\n");
@@ -30,7 +30,7 @@ namespace Cilindro
             radiusValues = Convert.ToSingle(radiusValue);
 
             //calcular volume//
-            volume = pi * radiusValues * radiusValues * heigthValues;
+            volume = pi * Math.Pow (heigthValues, 2);
             Console.WriteLine($"your cilinder equals to\t {volume:f3}");
 
             //calcular área superficial//
