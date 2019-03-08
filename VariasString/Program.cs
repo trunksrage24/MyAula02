@@ -7,6 +7,8 @@ namespace VariasString
     {
         static void Main(string[] args)
         {
+
+            Console.OutputEncoding = Encoding.UTF8;
             //EX01//
             string s = "ola \u058D";
             Console.WriteLine(s);
