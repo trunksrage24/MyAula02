@@ -27,6 +27,18 @@ namespace VariasString
             string n = string.Format("batata mó!!! é igual a {0}", x+y);
             Console.WriteLine(n);
 
+            //EX03//
+            double xx = 0.12345;
+            int ii = 18;
+            string g = $"xx={xx:f2}";
+            Console.WriteLine(g);
+
+            string s1 = String.Format("{0:p1}", xx);
+            Console.WriteLine(s1);
+
+            Console.WriteLine("{0:x}", ii);
+            Console.WriteLine("{0:c}", ii);
+
 
             Console.ReadKey();
         }
